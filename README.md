@@ -1,16 +1,58 @@
-# React + Vite
+Приложение «Список дел» (TodoList)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Описание проекта
 
-Currently, two official plugins are available:
+TodoList — это простое клиентское приложение, разработанное на React.js. Приложение предназначено для создания и управления списком повседневных задач.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Функциональные возможности
 
-## React Compiler
+- Добавление новых задач.
+- Отображение списка добавленных задач.
+- Удаление задач из списка.
+- Проверка поля ввода на пустое значение.
+- Отображение общего количества задач.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Используемые технологии
 
-## Expanding the Oxlint configuration
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Node.js
+- npm
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Структура проекта
+
+src/
+├── App.jsx
+├── App.css
+├── TaskInput.jsx
+├── TaskList.jsx
+├── TaskItem.jsx
+├── main.jsx
+└── index.css
+
+Установка и запуск проекта
+
+1. Клонируйте репозиторий:
+
+git clone ссылка_на_репозиторий 
+
+2. Перейдите в папку проекта:
+
+cd имя_папки_проекта
+
+3. Установите зависимости:
+
+npm install
+
+4. Запустите приложение:
+
+npm run dev
+
+5. Откройте адрес, указанный в терминале, в браузере.
+
+Результат
+
+В результате разработано React-приложение «Список дел», позволяющее добавлять, просматривать и удалять задачи. Логика приложения реализована с использованием хука useState и разделена на отдельные компоненты для удобства разработки и поддержки кода.
