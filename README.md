@@ -25,13 +25,13 @@ TodoList — это простое клиентское приложение, р
 Структура проекта
 
 src/
-├── App.jsx
-├── App.css
-├── TaskInput.jsx
-├── TaskList.jsx
-├── TaskItem.jsx
-├── main.jsx
-└── index.css
+ App.jsx
+ App.css
+ TaskInput.jsx
+ TaskList.jsx
+ TaskItem.jsx
+ main.jsx
+ index.css
 
 Установка и запуск проекта
 
